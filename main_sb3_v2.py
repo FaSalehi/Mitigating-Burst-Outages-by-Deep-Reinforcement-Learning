@@ -10,7 +10,7 @@ import json
 import argparse
 import numpy as np
 import scipy.io
-from environment_v1 import PowerControlEnv
+from environment_v2 import PowerControlEnv
 
 import stable_baselines3
 from stable_baselines3.common.callbacks import StopTrainingOnNoModelImprovement, StopTrainingOnRewardThreshold, EvalCallback
